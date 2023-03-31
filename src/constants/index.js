@@ -23,6 +23,7 @@ import {
     jobit,
     tripguide,
     threejs,
+    carter,
   } from "../assets";
   
   export const navLinks = [
@@ -156,6 +157,27 @@ import {
   ]; 
   
   const projects = [
+    {
+      name: "Carter Music",
+      description:
+        "Carter Music & Co. is an online music shop, which offers great instruments for any budgets. So that the customers can enjoy their favourite instruments without breaking their bank account. The shop allows customer to leave a comment to any instrument.",
+      tags: [
+        {
+        name: "Python",
+        color: "blue-text-gradient",
+        },
+        {
+          name: "Django",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Stripe",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: carter,
+      source_code_link: "https://carter-music.onrender.com",
+    },
     {
       name: "Carter Music & Co v2",
       description:
