@@ -24,6 +24,7 @@ import {
     tripguide,
     threejs,
     carter,
+    breathe
   } from "../assets";
   
   export const navLinks = [
@@ -157,6 +158,35 @@ import {
   ]; 
   
   const projects = [
+    {
+      name: "Breathe",
+      description:
+        "Breathe is an app that allows customers to book their best private vacation spot anywhere in the world.",
+      tags: [
+        {
+        name: "React",
+        color: "blue-text-gradient",
+        },
+        {
+          name: "Tailwindcss",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Prisma",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "MongoDB",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Next.js 13",
+          color: "white-text-gradient",
+        },
+      ],
+      image: breathe,
+      source_code_link: "https://breathe-lyart.vercel.app/",
+    },
     {
       name: "Carter Music",
       description:
