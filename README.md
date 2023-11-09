@@ -1,10 +1,16 @@
 # My Portfolio project
 
-This project is a beautiful, interactive 3D visualization for my portfolio. It's built using React and Three.js.
+This project is a beautiful, interactive 3D visualization and animations to bring content to life.  It's built using React and ThreeJS.
 
-## Components
+## Stacks
 
-The main component is `StarsCanvas`, which renders a canvas for the stars. Inside this canvas, the `Stars` component is used to create a mesh with the stars.
+In this portfolio project, I used:
+
+- ThreeJS - To make powerful 3D graphics animations
+- React Three Fiber - To use and create 3D graphics with ThreeJS in React.
+- TailwindCSS - To style effortlessly the page.
+- Framer Motion - To bring my React website to life with animations.
+
 
 ## How to Run
 
@@ -12,10 +18,6 @@ The main component is `StarsCanvas`, which renders a canvas for the stars. Insid
 2. Install the dependencies using `npm install`.
 3. Start the project using `npm start`.
 
-## Features
-
-- Interactive 3D visualization of stars.
-- Beautiful colour and size attenuation for stars.
 
 ## Future Improvements
 
@@ -28,4 +30,4 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 ## License
 
-[MIT](https://choosealicense.com/licenses/mit/)
+Kevin
