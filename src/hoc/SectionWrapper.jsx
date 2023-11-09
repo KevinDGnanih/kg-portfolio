@@ -4,6 +4,8 @@ import { Component } from 'react';
 import { styles } from '../styles';
 import { staggerContainer } from '../utils/motion';
 
+
+// SectionWrapper is a higher order component that takes in a component and an idName as props
 const SectionWrapper = (Component, idName) => 
 function HOC() {
     return (
@@ -21,5 +23,5 @@ function HOC() {
     )
 }
 
-
+// Export the SectionWrapper component
 export default SectionWrapper;

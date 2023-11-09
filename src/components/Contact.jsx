@@ -8,27 +8,35 @@ import { EarthCanvas } from './canvas';
 import { SectionWrapper } from '../hoc';
 import { slideIn } from '../utils/motion';
 
+
+
 const Contact = () => {
+  // formRef is a reference to the form element
   const formRef = useRef()
 
+  // form is an object that contains the form data
   const [form, setForm] = useState({
     name: '',
     email: '',
     message: '',
   })
 
+  // loading is a boolean that indicates whether the form is being submitted
   const [loading, setLoading] = useState(false);
 
+  // handleChange is a function that updates the form data
   const handleChange = (e) => {
     const { name, value } = e.target;
 
     setForm({ ...form, [name]: value })
   }
 
+  // handleSubmit is a function that submits the form data
   const handleSubmit = (e) => {
     e.preventDefault();
     setLoading(true);
 
+    // emailjs.send() sends an email using the emailjs service
     emailjs.send(
       'kg-portfolio',
       'template_kdg',
@@ -45,6 +53,8 @@ const Contact = () => {
       setLoading(false);
       alert('Thank you. I will get back to you as soon as possible.');
 
+
+      // Reset the form
       setForm({
         name: '',
         email: '',

@@ -3,9 +3,10 @@ import { motion } from 'framer-motion';
 import { styles } from '../styles';
 import { ComputersCanvas } from './canvas';
 
-
+// This is the Hero component
 const Hero = () => {
   return (
+    // Section is a wrapper component that adds padding to its children
     <section className={`relative w-full h-screen mx-auto`}>
       <div 
       className={`absolute inset-0 top-[120px]  max-w-7xl mx-auto ${styles.paddingX}
@@ -52,4 +53,5 @@ const Hero = () => {
   )
 }
 
+// Export the Hero component wrapped in the SectionWrapper component
 export default Hero;

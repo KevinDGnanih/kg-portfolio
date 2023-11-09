@@ -1,4 +1,6 @@
+// Importing canvas q from canvas.js
 import { EarthCanvas, BallCanvas, ComputersCanvas, StarsCanvas } from './canvas';
+
 import Hero from './Hero';
 import Navbar from './Navbar';
 import About from './About';
@@ -8,6 +10,7 @@ import Works from './Works';
 import Feedbacks from './Feedbacks';
 import Contact from './Contact';
 
+// Exporting all the imported components so they can be imported from a single file
 export {
   Hero,
   Navbar,

@@ -9,7 +9,7 @@ import { SectionWrapper } from '../hoc/';
 import { projects } from '../constants';
 import { fadeIn, textVariant } from '../utils/motion';
 
-
+// ProjectCard is a functional component that takes in the index, name, description, tags, image and source_code_link props
 const ProjectCard = ({ index, name, description, tags, image, source_code_link }) => {
   return (
     <motion.div variants={fadeIn('up', 'spring', index * 0.5, 0.75)}>
@@ -58,6 +58,7 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link }
 
 };
 
+// This is the Works component
 const Works = () => {
   return (
     <>
@@ -97,4 +98,5 @@ const Works = () => {
   )
 }
 
+// Export the Works component wrapped in the SectionWrapper component
 export default SectionWrapper(Works, '');

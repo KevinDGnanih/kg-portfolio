@@ -7,8 +7,11 @@ import { services } from '../constants';
 import { fadeIn, textVariant } from '../utils/motion';
 import { SectionWrapper } from '../hoc';
 
-
+// SercixeCard is a functional component that takes in the index, title and icon props
+// This object contains index. title and icon props.
 const ServiceCard = ({ index, title, icon }) => {
+
+  // Tilt is a wrapper component that adds a 3D tilt effect to its children
   return (
     <Tilt className='xs:w-[250px] w-full'>
       <motion.div
@@ -17,9 +20,9 @@ const ServiceCard = ({ index, title, icon }) => {
       shadow-card'>
         <div
         options={{
-          max: 45,
-          scale: 1,
-          speed: 450
+          max: 45, // Maximun tilt angle.
+          scale: 1, // 2d scaling factor.
+          speed: 450 // Speed of the tilt effect.
         }}
         className='bg-tertiary rounded-[20px]
         py-5 px-12 min-h-[280px] flex
@@ -35,6 +38,7 @@ const ServiceCard = ({ index, title, icon }) => {
   )
 }
 
+// This is the About component
 const About = () => {
   return (
     <>
@@ -66,4 +70,5 @@ const About = () => {
   )
 }
 
+// This is where the About component is wrapped with the SectionWrapper component and exported
 export default SectionWrapper (About, 'about');

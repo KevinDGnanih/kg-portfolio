@@ -10,10 +10,14 @@ import {
 
 import CanvasLoader from "../Loader";
 
+
+// Ball is a functional component that displays a ball with a decal
 const Ball = (props) => {
   const [decal] = useTexture([props.imgUrl]);
 
   return (
+
+    // Float is a component from @react-three/drei that makes the ball float
     <Float speed={1.75} rotationIntensity={1} floatIntensity={2}>
       <ambientLight intensity={0.25} />
       <directionalLight position={[0, 0, 0.05]} />
@@ -37,6 +41,7 @@ const Ball = (props) => {
   );
 };
 
+// BallCanvas is a functional component that displays the canvas with the ball
 const BallCanvas = ({ icon }) => {
   return (
     <Canvas
@@ -54,4 +59,5 @@ const BallCanvas = ({ icon }) => {
   );
 };
 
+// Export the BallCanvas component
 export default BallCanvas;

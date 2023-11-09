@@ -1,3 +1,4 @@
+// This is all the data for the website
 import {
     mobile,
     backend,
@@ -27,6 +28,7 @@ import {
     breathe
   } from "../assets";
   
+  // This is the data for header section
   export const navLinks = [
     {
       id: "about",
@@ -42,6 +44,8 @@ import {
     },
   ];
   
+
+  // This is the data for header section
   const services = [
     {
       title: "Web Developer",
@@ -61,6 +65,7 @@ import {
     },
   ];
   
+  // This is the data for skills section
   const technologies = [
     {
       name: "HTML 5",
@@ -112,6 +117,7 @@ import {
     },
   ];
   
+  // This is the data for experiences section
   const experiences = [
     {
       title: "Professional Musician",
@@ -146,6 +152,7 @@ import {
     },
   ]
   
+  // This is the data for testimonials section
   const testimonials = [
     {
       testimonial:
@@ -157,6 +164,8 @@ import {
     },
   ]; 
   
+
+  // This is the data for projects section
   const projects = [
     {
       name: "Breathe",
@@ -276,4 +285,5 @@ import {
     },
   ];
   
+  // This is the data for contact section
   export { services, technologies, experiences, testimonials, projects };

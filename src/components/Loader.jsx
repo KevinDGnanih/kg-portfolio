@@ -1,7 +1,12 @@
+// Importing necessary modules from react-three-fiber
 import { Html, useProgress } from "@react-three/drei";
 
+
+// CanvasLoader is a functional component that displays a loader while the canvas is loading
 const CanvasLoader = () => {
   const { progress } = useProgress();
+
+  // The component returns an HTML compnent from @react-three/drei
   return (
     <Html
       as='div'
@@ -28,4 +33,5 @@ const CanvasLoader = () => {
   );
 };
 
+// Export the CanvasLoader component
 export default CanvasLoader;

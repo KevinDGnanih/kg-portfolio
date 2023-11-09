@@ -5,12 +5,16 @@ import { styles } from '../styles';
 import { navLinks } from '../constants';
 import { logo, menu, close } from '../assets';
 
+// Navbar is a functional component
 const Navbar = () => {
+
+  // useState is a hook that enables the use of state in a functional component
   const [active, setActive] = useState("");
   const [toggle, setToggle] = useState(false)
 
 
   return (
+    // The nav element is the main container for the navbar
     <nav className={`${styles.paddingX} 
       w-full flex
       items-center py-5 fixed top-0 z-20
@@ -81,4 +85,5 @@ const Navbar = () => {
   )
 }
 
-export default Navbar
+// Export the Navbar component
+export default Navbar;

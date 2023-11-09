@@ -5,10 +5,12 @@ import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 
 import CanvasLoader from "../Loader";
 
+// Computers is a functional component that displays the computers in the canvas
 const Computers = ({ isMobile }) => {
   const computer = useGLTF("./desktop_pc/scene.gltf");
 
   return (
+    // The component returns a mesh with the computers in the canvas
     <mesh>
       <hemisphereLight intensity={0.15} groundColor='black' />
       <spotLight
@@ -30,6 +32,7 @@ const Computers = ({ isMobile }) => {
   );
 };
 
+// ComputersCanvas is a functional component that displays the canvas with the computers
 const ComputersCanvas = () => {
   const [isMobile, setIsMobile] = useState(false);
 
@@ -55,6 +58,8 @@ const ComputersCanvas = () => {
   }, []);
 
   return (
+
+    // The component returns a canvas with the computers in it
     <Canvas
       frameloop='demand'
       shadows
@@ -76,4 +81,5 @@ const ComputersCanvas = () => {
   );
 };
 
+// Export the ComputersCanvas component
 export default ComputersCanvas;

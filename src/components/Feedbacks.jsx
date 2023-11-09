@@ -6,10 +6,13 @@ import { SectionWrapper } from '../hoc';
 import { fadeIn, textVariant } from '../utils/motion';
 import { testimonials } from '../constants';
 
+// FeedbackCard is a functional component that takes in the index, testimonial, name, designation, company and image props
 const FeedbackCard = ({ 
   index, testimonial,
   name, designation,
   company, image }) => (
+
+  // motion.div is a wrapper component that enables animation
   <motion.div
     variants={fadeIn("", "spring", index * 0.5, 0.75)}
     className='bg-black-200 p-10 rounded-3xl xs:w-[320px] w-full'
@@ -39,6 +42,7 @@ const FeedbackCard = ({
   </motion.div>
 );
 
+// This is the Feedbacks component
 const Feedbacks = () => {
   return (
     <div className="mt-12 bg-black-100 rounded-[20px]">
@@ -63,4 +67,5 @@ const Feedbacks = () => {
   );
 }; 
 
+// Export the Feedbacks component wrapped in the SectionWrapper component
 export default SectionWrapper(Feedbacks, "");

@@ -1,3 +1,4 @@
+// Motion Variants for different types of animations
 export const textVariant = (delay) => {
     return {
       hidden: {
@@ -16,6 +17,7 @@ export const textVariant = (delay) => {
     };
   };
   
+  // Motion Variants for different types of animations
   export const fadeIn = (direction, type, delay, duration) => {
     return {
       hidden: {
@@ -37,6 +39,7 @@ export const textVariant = (delay) => {
     };
   };
   
+  // Motion Variants for different types of animations
   export const zoomIn = (delay, duration) => {
     return {
       hidden: {
@@ -56,6 +59,7 @@ export const textVariant = (delay) => {
     };
   };
   
+  // Motion Variants for different types of animations
   export const slideIn = (direction, type, delay, duration) => {
     return {
       hidden: {
@@ -75,6 +79,7 @@ export const textVariant = (delay) => {
     };
   };
   
+  // Motion Variants for different types of animations
   export const staggerContainer = (staggerChildren, delayChildren) => {
     return {
       hidden: {},

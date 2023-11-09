@@ -12,8 +12,11 @@ import { experiences } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { textVariant } from "../utils/motion";
 
+
+// ExperienceCard is a functional component that takes in the experience prop
 const ExperienceCard = ({ experience }) => {
   return (
+    // VerticalTimelineElement is a component that displays a single timeline element
     <VerticalTimelineElement
       contentStyle={{
         background: "#1d1836",
@@ -56,6 +59,7 @@ const ExperienceCard = ({ experience }) => {
   );
 };
 
+// This is the Experience component
 const Experience = () => {
   return (
     <>
@@ -82,4 +86,5 @@ const Experience = () => {
   );
 };
 
+// Export the Experience component wrapped in the SectionWrapper HOC
 export default SectionWrapper(Experience, "work");

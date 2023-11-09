@@ -4,11 +4,14 @@ import { OrbitControls, Preload, useGLTF } from '@react-three/drei';
 
 import CanvasLoader from '../Loader';
 
+// Earth is a functional component that displays the earth in the canvas
 const Earth = () => {
 
+  // useGLTF is a hook from @react-three/drei that loads a GLTF model
   const earth = useGLTF('./planet/scene.gltf')
 
   return (
+    // The component returns a mesh with the earth in the canvas
     <primitive 
       object={earth.scene}
       scale={2.5}
@@ -17,8 +20,11 @@ const Earth = () => {
   )
 }
 
+// EarthCanvas is a functional component that displays the canvas with the earth
 const EarthCanvas = () => {
   return (
+
+    // Canvas is a component from @react-three/fiber that displays a canvas
     <Canvas
       shadows
       frameloop='demand'
@@ -29,6 +35,7 @@ const EarthCanvas = () => {
         far: 200,
         position: [-4, 3, 6]
        }}>
+        
         <Suspense fallback={<CanvasLoader />}>
           <OrbitControls 
             autoRotate
@@ -42,4 +49,5 @@ const EarthCanvas = () => {
   )
 }
 
+// Export the EarthCanvas component
 export default EarthCanvas;

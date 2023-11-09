@@ -3,6 +3,8 @@ import { BrowserRouter } from 'react-router-dom';
 import { About, Contact, Experience, Feedbacks,
 Hero, Navbar, Tech, Works, StarsCanvas } from './components';
 
+
+// App is a functional component that renders the entire application
 const App = () => {
 
   return (
@@ -25,4 +27,5 @@ const App = () => {
   )
 }
 
-export default App
+// Export the App component
+export default App;
