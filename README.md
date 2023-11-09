@@ -1,6 +1,6 @@
-# Starry Sky Project
+# My Portfolio project
 
-This project is a beautiful, interactive 3D visualization of a starry sky. It's built using React and Three.js.
+This project is a beautiful, interactive 3D visualization for my portfolio. It's built using React and Three.js.
 
 ## Components
 
@@ -15,7 +15,7 @@ The main component is `StarsCanvas`, which renders a canvas for the stars. Insid
 ## Features
 
 - Interactive 3D visualization of stars.
-- Beautiful color and size attenuation for stars.
+- Beautiful colour and size attenuation for stars.
 
 ## Future Improvements
 
