@@ -124,15 +124,15 @@ import {
       company_name: "Kevin Davy White",
       icon: starbucks,
       iconBg: "#383E56",
-      date: "April 20214 - Present",
+      date: "April 2014 - Present",
       points: [
-        "Awarded Best singer and songwriter at Urban Music Award 2022.",
-        "Special guest for Texas, Simply Red, Westlife summer 2022.",
-        "Singer – solo and leading artist in a band.",
-        "Advanced guitarist and instrumentalist",
-        "Songwriter with 11 original releases.",
+        "Problem-Solving: I am able to break down complex problems into smaller, more manageable tasks.",
+        "Attention to detail: I am able to notice small changes to ensure that my code is accurate and error-free.",
+        "Creativity: I am a creative thinker who is able to come up with new ideas and solutions to problems.",
+        "Collaboration: I always work with a team effectively to achieve a common goal.",
+        "Communication: I am a very good communicator who is able to explain complex ideas in a simple way.",
         "Music Production, sound engineering, mixing, social media content and website design.",
-        "International tours, concerts, events, and private functions.",
+        "Finalist in X-Factor UK 2017 and placed 3rd overall.",
       ],
     },
     {
@@ -142,12 +142,12 @@ import {
       iconBg: "#E6DEDD",
       date: "April 2020 - Present",
       points: [
-        "Large van deliveries across multiple regions.",
-        "Delivering 280+ packages per day.",
-        "Work a nine-hour route within pressured time frames.",
+        "Customer service: Interacting with customers on a daily basis and providing excellent customer service.",
+        "Time management: I am able to manage my time effectively in order to meet deadlines and deliver packages on time.",
+        "Organization: I am organized in order to keep track of packages, paperwork and customer information.",
         "Deliver with 100% accuracy and completion.",
-        "Excellent customer service with zero concessions.",
-        "Adhering to all health and safety protocols.",
+        "Work a nine-hour route within pressured time constraints.",
+        "Deliver with 100% accuracy and completion.",
       ],
     },
   ]
@@ -218,6 +218,27 @@ import {
       source_code_link: "https://carter-music.onrender.com",
     },
     {
+      name: "Kevin Davy White Website",
+      description:
+        "A web page presenting and giving information about the artist Kevin Davy White",
+      tags: [
+        {
+          name: "JavaScript",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "css",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Bootstrap",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: tripguide,
+      source_code_link: "https://www.kevindavywhite.com/",
+    },
+    {
       name: "Carter Music & Co v2",
       description:
         "An E-commerce website giving the opportunity to shopper to buy headphones, speakers and instruments",
@@ -262,27 +283,7 @@ import {
       image: jobit,
       source_code_link: "https://github.com/KevinDGnanih/jobit",
     },
-    {
-      name: "Kevin Davy White Website",
-      description:
-        "A web page presenting and giving information about the artist Kevin Davy White",
-      tags: [
-        {
-          name: "JavaScript",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "css",
-          color: "green-text-gradient",
-        },
-        {
-          name: "Bootstrap",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: tripguide,
-      source_code_link: "https://www.kevindavywhite.com/",
-    },
+
   ];
   
   // This is the data for contact section
