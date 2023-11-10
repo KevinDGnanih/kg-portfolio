@@ -52,12 +52,9 @@ const About = () => {
         className='mt-4 text-secondary text-[17px]
         max-w-3xl leading-[30px]'
       >
-        I'm a skilled software developer with experience
-        in TypeScript, Python and JavaScript, and expertise
-        in frameworks like React, Node.js, and Three.js.
-        I'm a quick learner and collaborate closely with clients to create
-        efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        Motivated and detail-oriented Junior Full-Stack Developer with a strong desire to learn and grow.
+        Seeking a Junior Full-Stack Developer position to leverage my skills in HTML, CSS, Python, Django and JavaScript
+        while continuously learning and contributing to dynamic projects.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
